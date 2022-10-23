@@ -1,0 +1,42 @@
+#NOMOR 4.9
+
+print('{:^100}'.format('UNIVERSITAS KOMPUTER INDONESIA')) # 100 adalah posisi dari pragrafnya 
+print('{:^100}'.format('JL Dipati Ukur 112-114, SUMBAWA'))
+print('{:^100}'.format('-'*60)) # dengan menggunakan "-"*60 nantinya tanda tersebut tercetak 60 buah
+print(('{:20}'.format('Nama')+'{:20}'.format(': oemar bakri')).center(100))
+print(('{:20}'.format('NIM')+'{:20}'.format(': 10205088')).center(100))
+print(('{:20}'.format('Jurusan')+'{:20}'.format(': teknik komputer')).center(100))
+print(('{:20}'.format('Fakultas')+'{:20}'.format(': Teknik Ilmu dan Komputer')).center(105))
+print('{:^100}'.format('-'*60))
+
+
+# NOMOR 4.10
+# 1
+print(('DATA KECEPATAN MOBIL').center(100))
+print('{:^100}'.format('-'*60))
+
+kecepatan=int(input(('Kecepatan rata-rata(km/jam):').center(70)))
+waktu=int(input    (('Waktu Tempuh(Jam)          :').center(70)))
+jar = kecepatan * waktu
+print((f'Jarak tempuh               :      {kecepatan} * {waktu} = {jar}').center(85))
+print('{:^100}'.format('-'*60))
+
+
+# 2
+print(('PROGRAM MENGHITUNG PEMBELIAN').center(100))
+print('{:^100}'.format('-'*60))
+
+harga=int(input(('Harga Satuan     : Rp ').center(70)))
+jum=int(input(('Jumlah Pembelian :   ').center(70)))
+
+harbarang= harga * jum
+hargadiskon= harbarang * (10/100)
+hargatotal= harbarang - hargadiskon
+print('{:^80}'.format(f'Diskon           : Rp.      {int(hargadiskon)} ').center(70))
+print('{:^80}'.format(f'Harga Total      : Rp.      {int(hargatotal)}').center(70))
+# 3
+# 4
+# 5
+# 6
+# 7
+
